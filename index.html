@@ -1,63 +1,296 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Description" content="Nexture Creative 공식 회사 소개 페이지 (Apple Developer Program 등록 확인용)">
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.1">
-  <style type="text/css">
-    body {background-color: #f5f6f9}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Apple SD Gothic Neo SemiBold'; color: #535353; -webkit-text-stroke: #535353}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Apple SD Gothic Neo'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px '.SF NS'; color: #535353; -webkit-text-stroke: #535353}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px '.AppleKoreanFont'; color: #535353; -webkit-text-stroke: #535353}
-    p.p10 {margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px 'Apple SD Gothic Neo'; color: #535353; -webkit-text-stroke: #535353}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #2b339b; -webkit-text-stroke: #2b339b; background-color: #eaeeff}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px '.SF NS'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #535353; -webkit-text-stroke: #535353}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 13.0px 'Helvetica Neue'; color: #878787; -webkit-text-stroke: #878787}
-    span.s1 {font-kerning: none; background-color: #ffffff}
-    span.s2 {font: 12.0px 'Apple SD Gothic Neo'; font-kerning: none; background-color: #ffffff}
-    span.s3 {font: 20.0px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
-    span.s4 {font: 12.0px '.AppleKoreanFont'; font-kerning: none; background-color: #ffffff}
-    span.s5 {font: 12.0px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
-    span.s6 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #0e0e0e; background-color: #ffffff; -webkit-text-stroke: 0px #0e0e0e}
-    span.s7 {font: 12.0px '.SF NS'; font-kerning: none; background-color: #ffffff}
-    span.s8 {font: 14.0px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
-    span.s9 {font-kerning: none}
-    span.s10 {font: 14.0px 'Apple SD Gothic Neo'; font-kerning: none; background-color: #ffffff}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nexture Creative - 공식 웹사이트</title>
+  <meta name="description" content="Nexture Creative 회사 소개 / 제품 / 고객 지원 정보">
+  <style>
+    * { box-sizing: border-box; -webkit-font-smoothing: antialiased; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", "Helvetica Neue", Arial, sans-serif;
+      color: #111;
+      background-color: #f7f8fa;
+      line-height: 1.5;
+    }
+    header {
+      background: linear-gradient(180deg, #111827 0%, #1f2937 100%);
+      color: #fff;
+      padding: 40px 20px 56px;
+      text-align: center;
+    }
+    header .brand {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #9ca3af;
+      margin-bottom: 8px;
+    }
+    header h1 {
+      margin: 0 0 16px;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: #fff;
+    }
+    header p.tagline {
+      margin: 0 auto;
+      max-width: 600px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #d1d5db;
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 20px 80px;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      padding: 24px 24px 16px;
+      margin-bottom: 24px;
+    }
+
+    section h2 {
+      margin: 0 0 16px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #111827;
+      letter-spacing: -0.03em;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 15px;
+    }
+    .row:last-child {
+      border-bottom: none;
+    }
+    .label {
+      font-weight: 600;
+      color: #6b7280;
+    }
+    .value {
+      color: #111827;
+      word-break: break-word;
+    }
+
+    /* 제품 카드 */
+    .product-card {
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 16px 20px;
+      background: #fafafa;
+      margin-bottom: 12px;
+    }
+    .product-name {
+      font-size: 16px;
+      font-weight: 600;
+      color: #111827;
+      margin-bottom: 4px;
+    }
+    .product-desc {
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.5;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 500;
+      border-radius: 999px;
+      padding: 2px 8px;
+      border: 1px solid #e0e7ff;
+      background: #eef2ff;
+      color: #4f46e5;
+      margin-right: 8px;
+    }
+
+    /* 연락/지원 */
+    .support-note {
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.5;
+      margin-top: 8px;
+    }
+    .support-link {
+      color: #2563eb;
+      font-weight: 500;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    footer {
+      text-align: center;
+      color: #9ca3af;
+      font-size: 13px;
+      line-height: 1.5;
+      padding: 32px 16px 64px;
+    }
+    footer .corpline {
+      color: #6b7280;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 560px) {
+      .row {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+      .label {
+        color: #6b7280;
+        font-size: 13px;
+      }
+      .value {
+        font-size: 15px;
+      }
+    }
   </style>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 6.0px 0.0px; font: 28.0px 'Helvetica Neue'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s1"><b>Nexture Creative</b><b></b></span></h1>
-<p class="p2"><span class="s2">공식</span><span class="s1"> </span><span class="s2">회사</span><span class="s1"> </span><span class="s2">소개</span><span class="s1"> </span><span class="s2">페이지</span><span class="s1"> (Apple Developer Program </span><span class="s2">등록</span><span class="s1"> </span><span class="s2">확인용</span><span class="s1">)</span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 20.0px '.AppleKoreanFont'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s1"><b>회사</b></span><span class="s3"><b> </b></span><span class="s1"><b>정보</b><b></b></span></h2>
-<p class="p4"><span class="s4"><b>회사명</b><b></b></span></p>
-<p class="p5"><span class="s1">Nexture Creative</span></p>
-<p class="p4"><span class="s4"><b>사업자등록번호</b><b></b></span></p>
-<p class="p6"><span class="s5">[</span><span class="s1">518-30-01716</span><span class="s5">]</span></p>
-<p class="p7"><span class="s1"><b>D‑U‑N‑S </b></span><span class="s4"><b>번호</b><b></b></span></p>
-<p class="p8"><span class="s6">[</span><b>696621662</b><span class="s6">]</span></p>
-<p class="p4"><span class="s4"><b>대표자</b><b></b></span></p>
-<p class="p6"><span class="s5">[</span><span class="s1">kimsahak</span><span class="s5">]</span></p>
-<p class="p9"><span class="s1"><b>연락</b></span><span class="s7"><b> </b></span><span class="s1"><b>이메일</b><b></b></span></p>
-<p class="p6"><span class="s5">[</span><span class="s1">dksh0220@gmail.com</span><span class="s5">]</span></p>
-<p class="p4"><span class="s4"><b>연락처</b><b></b></span></p>
-<p class="p6"><span class="s5">[</span><span class="s1">821092872880</span><span class="s5">]</span></p>
-<p class="p4"><span class="s4"><b>주소</b><b></b></span></p>
-<p class="p8"><span class="s6">[</span>10-8, Dobong-ro 177ga-gil, Dobong-gu, Seoul, Republic of Korea</p>
-<p class="p8">01305</p>
-<p class="p5"><span class="s1">]</span></p>
-<p class="p10"><span class="s8">※ </span><span class="s1">본</span><span class="s8"> </span><span class="s1">페이지는</span><span class="s8"> Apple</span><span class="s1">의</span><span class="s8"> </span><span class="s1">회사</span><span class="s8"> </span><span class="s1">실체</span><span class="s8"> </span><span class="s1">확인을</span><span class="s8"> </span><span class="s1">위한</span><span class="s8"> </span><span class="s1">공식</span><span class="s8"> </span><span class="s1">안내</span><span class="s8"> </span><span class="s1">페이지입니다</span><span class="s8">.</span></p>
-<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 20.0px '.AppleKoreanFont'; color: #0e0e0e; -webkit-text-stroke: #0e0e0e"><span class="s1"><b>앱</b></span><span class="s3"><b> </b></span><span class="s1"><b>정보</b><b></b></span></h2>
-<p class="p11"><span class="s9">iOS</span></p>
-<p class="p12"><span class="s4"><b>석고</b></span><span class="s1"><b> </b></span><span class="s4"><b>요약정리</b></span><span class="s1"><b> </b></span><span class="s4"><b>학습</b></span><span class="s1"><b> </b></span><span class="s4"><b>앱</b></span><span class="s1"><b> (Dental Materials)</b><b></b></span></p>
-<p class="p13"><span class="s10">교육</span><span class="s1"> · </span><span class="s10">의료</span><span class="s1"> </span><span class="s10">보조</span><span class="s1"> </span><span class="s10">카테고리</span><span class="s1"> / SwiftUI · iOS</span></p>
-<p class="p14"><span class="s9">© Nexture Creative. All rights reserved.</span></p>
+
+  <!-- HERO / 회사 첫인상 -->
+  <header>
+    <div class="brand">Nexture Creative</div>
+    <h1>치과 기술 교육과 디지털 워크플로를 만드는 회사</h1>
+    <p class="tagline">
+      Nexture Creative는 치과 기공사용 교육 앱과 치과용 CAD/CAM 콘텐츠를 개발하는 창의적 기술 기업입니다.
+    </p>
+  </header>
+
+  <main>
+
+    <!-- 회사 소개 -->
+    <section aria-labelledby="about">
+      <h2 id="about">회사 소개 (About Us)</h2>
+      <p style="font-size:15px; color:#374151; line-height:1.6; margin:0 0 8px;">
+        Nexture Creative는 디지털 치과 분야에서 교육, 워크플로 지원, 시각 콘텐츠 제작을 통해
+        기공사 및 치과 전문 인력이 더 효율적으로 일할 수 있도록 돕는 것을 목표로 합니다.
+      </p>
+      <p style="font-size:15px; color:#374151; line-height:1.6; margin:0;">
+        우리는 iOS 기반 교육 앱, 치과 재료/가공 프로세스 가이드, CAD/CAM 작업 흐름 자료 등을
+        직접 설계하고 개발하고 있습니다. 본 페이지는 Apple Developer Program 조직 등록을 위한
+        공식 기업 소개 페이지입니다.
+      </p>
+    </section>
+
+    <!-- 제품 / 서비스 -->
+    <section aria-labelledby="products">
+      <h2 id="products">제품 및 서비스 (Products & Services)</h2>
+
+      <div class="product-card">
+        <div class="product-name">
+          <span class="badge">iOS App</span>
+          석고 퀴즈 학습 앱 (Dental Materials Quiz)
+        </div>
+        <div class="product-desc">
+          치과 기공사 및 치과계 교육을 위한 학습형 앱입니다.  
+          치과 재료(특히 석고 및 왁스 등)와 관련된 핵심 지식을
+          문제풀이 방식으로 반복 학습할 수 있도록 설계되었습니다.
+          iPhone / iPad 환경에서 SwiftUI로 동작하며,
+          학습자의 진도, 오답 복습, 파트별 학습 등을 지원합니다.
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-name">
+          <span class="badge">CAD/CAM</span>
+          치과용 CAD/CAM 콘텐츠 제작
+        </div>
+        <div class="product-desc">
+          치과 기공용 CAD/CAM 워크플로(스캔, 디자인, 가공)에 필요한 시각 자료와
+          교육용 가이드를 기획/제작합니다.  
+          이는 치과 기공사 교육 및 치과기공 실무 과정 개선을 위한
+          전문 콘텐츠로 활용됩니다.
+        </div>
+      </div>
+    </section>
+
+    <!-- 회사 정보 -->
+    <section aria-labelledby="company-info">
+      <h2 id="company-info">회사 정보 (Company Information)</h2>
+
+      <div class="row">
+        <div class="label">회사명 / Company Name</div>
+        <div class="value">Nexture Creative</div>
+      </div>
+
+      <div class="row">
+        <div class="label">사업자등록번호 / Business Registration No.</div>
+        <div class="value">[여기에 입력]</div>
+      </div>
+
+      <div class="row">
+        <div class="label">D-U-N-S 번호 / D-U-N-S Number</div>
+        <div class="value">[여기에 입력]</div>
+      </div>
+
+      <div class="row">
+        <div class="label">대표자 / Representative</div>
+        <div class="value">김사학</div>
+      </div>
+
+      <div class="row">
+        <div class="label">설립지 / Location</div>
+        <div class="value">Seoul, Republic of Korea</div>
+      </div>
+    </section>
+
+    <!-- 고객 지원 / 연락 -->
+    <section aria-labelledby="contact">
+      <h2 id="contact">지원 및 문의 (Support & Contact)</h2>
+
+      <div class="row">
+        <div class="label">문의 이메일 / Contact Email</div>
+        <div class="value">
+          <a class="support-link" href="mailto:dksh0220@gmail.com">dksh0220@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">지원 URL / Support URL</div>
+        <div class="value">
+          <a class="support-link" href="mailto:dksh0220@gmail.com">
+            고객 지원 및 기술 지원은 이메일을 통해 제공됩니다.
+          </a>
+        </div>
+      </div>
+
+      <p class="support-note">
+        Nexture Creative는 고객 및 파트너의 문의에 대해 이메일을 통해 직접 응답합니다.
+        앱 기능 관련 지원, 계정 전환 관련 문의 등은 위의 연락 채널을 통해 처리됩니다.
+        (This contact channel is actively monitored and serves as the primary support URL.)
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="corpline">
+      Nexture Creative &middot; Seoul, Republic of Korea
+    </div>
+    <div style="margin-top:6px;">
+      사업자등록번호 / Business Registration No.: [여기에 입력] <br/>
+      D-U-N-S: [여기에 입력]
+    </div>
+    <div style="margin-top:12px;">
+      © <span id="year"></span> Nexture Creative. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
